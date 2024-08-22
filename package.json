@@ -1,0 +1,30 @@
+{
+  "name": "peroxy",
+  "version": "0.0.1",
+  "description": "A lightweight proxy server CLI that supports dynamic domain-based HTTP(S) and WebSocket proxying. Easily route local domains to specific targets with automatic SSL certificate generation. Perfect for local development environments requiring multiple domains with secure HTTPS proxying.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node ./tproxy-cli.js --port 8080 --httpPort 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qolzam/peroxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "https",
+    "websockets",
+    "local",
+    "development",
+    "ssl",
+    "dynamic",
+    "routing",
+    "cli"
+  ],
+  "author": "Amir Movahedi (Qolzam)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qolzam/peroxy/issues"
+  },
+  "homepage": "https://github.com/Qolzam/peroxy#readme"
+}
